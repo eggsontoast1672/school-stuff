@@ -7,7 +7,7 @@ startline=15
 
 # The essay version to compile or view word count of. If version is 1, the file
 # that will be used is version-1.md, if it is 2 then version-2.md, et cetera.
-version=2
+version=1
 
 file=version-${version}.md
 
