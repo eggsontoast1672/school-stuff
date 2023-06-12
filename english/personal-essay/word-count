@@ -1,6 +1,0 @@
-#!/bin/sh
-
-version=2
-startline=7
-
-echo "$(tail "version-${version}.md" --lines=+${startline} | wc -w)"

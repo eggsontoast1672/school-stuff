@@ -1,3 +1,12 @@
+---
+title: Personal Essay
+author: Paul Zupan
+date: June 11, 2023
+fontsize: 12pt
+geometry: margin=1in
+output: pdf_document
+---
+
 Describe a topic, idea, or concept you find so engaging that it makes you lose
 all track of time. Why does it captivate you? What or who do you turn to when
 you want to learn more?

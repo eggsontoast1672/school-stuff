@@ -1,3 +1,12 @@
+---
+title: Personal Essay
+author: Paul Zupan
+date: June 11, 2023
+fontsize: 12pt
+geometry: margin=1in
+output: pdf_document
+---
+
 Describe a topic, idea, or concept you find so engaging that it makes you lose
 all track of time. Why does it captivate you? What or who do you turn to when
 you want to learn more?
@@ -45,7 +54,7 @@ find appealing about them. On the other hand, humans keep you guessing. Even a
 piece of enumerated adhesive could not begin to describe the human mind.
 
 Some would call me pedantic, pretentious, or just annoying. It's true, maybe I
-tend to cling to the rules to much. I just can't help it, though. Without
+tend to cling to the rules too much. I just can't help it, though. Without
 rules, how am I supposed to know whether or not I'm doing it right? If my
 choices are arbitrary, how can I know if my process is sound? When it comes to
 the subject of math, where breaking the rules is often frowned upon, a position

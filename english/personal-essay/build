@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# The line on which the essay begins. This must be set correctly or else the
+# word count functionality will not captire the correct text and will yield an
+# incorrect value.
+startline=15
+
+# The essay version to compile or view word count of. If version is 1, the file
+# that will be used is version-1.md, if it is 2 then version-2.md, et cetera.
+version=2
+
+file=version-${version}.md
+
+case "${@}" in
+    "compile")
+        pandoc -o personal-essay.pdf --verbose ${file}
+        ;;
+    "words")
+        echo "Words: $(tail ${file} --lines=+${startline} | wc -w)"
+        ;;
+    *)
+        echo "Usage: ./build [compile|words]"
+        exit 1
+        ;;
+esac
